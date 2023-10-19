@@ -18,6 +18,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: rgba(57, 192, 57, 0.811);
+}
+
 h2 {
     background-color: rgba(141, 134, 134, 0.324);
     text-align: center;
@@ -41,9 +45,18 @@ div#img {
 }
 
 ul {
-    padding: 20px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
 }
 
 .emoji {
-    
+display: inline-block;
+padding-right: 10px;
 }
+
+div.foot-link {
+    text-align: center;
+    padding-top: 30px;
+}
+
